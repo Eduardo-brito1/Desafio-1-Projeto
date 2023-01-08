@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 60px;
+    height: 32px;
+    background-image: url(/assets/logo-dark.svg);
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu-header {
+    display: flex;
+    margin-top: 40px;
+    margin-right: 90px;
+}
+
+
+
+li {
+    list-style-type: none;
+    padding-left: 2rem;
+    font-size: 15px;
+}
+
+
+
+.imagem {
+    width: 1110px;
+    height: 600px;
+    display: flex;
+    position: absolute;
+    left: 165px;
+    top: 150px;
+}
+
+.cubo {
+    background-color: white;
+    height: 357px;
+    width: 445px;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    left: 165px;
+    top: 393px;
+}
+
+.letras {
+    display: flex;
+    font-size: 59px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #33323D;
+}
+
+.btn {
+    position: absolute;
+    height: 48px;
+    width: 200px;
+    background-color: #203A4C;
+    z-index: 3;
+    color: #ffffff;
+    font-size: medium;
+    display: flex;
+    left: 165px;
+    top: 690px;
+    border: none;
+    border-radius: 0px;
+}
+
+.arrow {
+    height: 45px;
+    width: 35px;
+
+}
+
+.sobre {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
+
+.container-sobre {
+    display: flex;
+    position: absolute;
+    width: 1110px;
+    height: 601px;
+    left: 175px;
+    top: 894px;
+
+}
+
+
+.container-text {
+    display: flex;
+    height: 502px;
+    width: 430px;
+    left: 855px;
+    top: 946px;
+    border-radius: 0px;
+
+}
+
+.titulo {
+    position: absolute;
+    display: flex;
+    left: 600px;
+}
+
+.text-sobre {
+    position: absolute;
+    height: 360px;
+    text-align: justify;
+    top: 70px;
+    left: 600px;
+    display: flex;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.btn-sobre {
+    position: absolute;
+    display: flex;
+    height: 48px;
+    width: 204px;
+    right: 150px;
+    top: 454px;
+    border-radius: 0px;
+
+}
+
+.text-btn {
+    position: absolute;
+    display: flex;
+    left: 25px;
+    margin-top: 15px;
+}
+
+.contato-container {
+    display: flex;
+    position: absolute;
+    height: 10vh;
+    margin-top: 1450px;
+}
+
+.contato-text {
+    display: flex;
+    position: absolute;
+    font-family: Ibarra Real Nova;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+    height: 84px;
+    width: 367px;
+    left: 170px;
+    top: -1px;
+    border-radius: nullpx;
+
+}
+
+.contato-button {
+    display: flex;
+    position: absolute;
+    height: 46px;
+    width: 150px;
+    left: 942px;
+    top: 17.598724365234375px;
+    border-radius: 0px;
+}
+
+.contato-button-text {
+    display: flex;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+    font-family: Public Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+
+}
+
+footer {
+    background-color: #33323D;
+    height: 10vh;
+    display: flex;
+    margin-top: 1550px;
+}
+
+.logo-f {
+    background-image: url(/assets/logo-light.svg);
+    width: 60px;
+    height: 32px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.menu-fotter {
+    display: flex;
+    margin-left: 20px;
+    color: white;
+    margin-top: 25px;
+}
+
+.social-fotter {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 750px;
+    padding-left: 1rem;
+}
+
+.midia {
+    padding-left: 1rem;
+}
